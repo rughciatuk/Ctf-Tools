@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Charles
+GenericName=Web Debugging Proxy
+Exec=charles %F
+Icon=../icon/128x128/apps/charles-proxy.png
+Categories=Network;Development;WebDevelopment;Java
+StartupNotify=true
+Terminal=false
+StartupWMClass=com-xk72-charles-gui-MainWithClassLoader
+MimeType=application/x-charles-savedsession;application/x-charles-savedsession+xml;application/x-charles-savedsession+json;application/har+json;application/vnd.tcpdump.pcap;application/x-charles-trace

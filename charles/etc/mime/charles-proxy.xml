@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+   <mime-type type="application/x-charles-savedsession">
+     <comment>Charles saved session</comment>
+     <glob pattern="*.chls"/>
+   </mime-type>
+   <mime-type type="application/x-charles-savedsession+xml">
+     <comment>Charles saved session</comment>
+     <glob pattern="*.chlsx"/>
+     <icon name="application-x-charles-savedsession" />
+   </mime-type>
+   <mime-type type="application/x-charles-savedsession+json">
+     <comment>Charles saved session</comment>
+     <glob pattern="*.chlsj"/>
+     <icon name="application-x-charles-savedsession" />
+   </mime-type>
+   <mime-type type="application/har+json">
+     <comment>HTTP Archive document</comment>
+     <glob pattern="*.har"/>
+   </mime-type>
+   <mime-type type="application/vnd.tcpdump.pcap">
+     <comment>Pcap Network Capture</comment>
+     <glob pattern="*.pcap"/>
+   </mime-type>
+   <mime-type type="application/x-charles-trace">
+     <comment>Charles TRACE document</comment>
+     <glob pattern="*.trace"/>
+   </mime-type>
+</mime-info>
